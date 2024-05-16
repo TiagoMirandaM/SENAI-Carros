@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+span{
+    color: #D59709;
+}
+
+.allContentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.secaoCabecalho{
+    background-color: #020202;
+}
+
+.tituloELinksSecaoCabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    margin: 40px;
+    color: #D59709;
+}   
+
+.divLinksCabecalho{
+    display: flex;
+    column-gap: 30px;
+    font-size: 20px;
+}
+
+a{
+    color: #D59709;
+}
+
+.imgBanner{
+    width: 100%;
+}
+
+.secaoSobre{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    max-width: 150vh;
+}
+
+.tituloEImgSecaoSobre{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.imgCarroAssinatura{
+    width: 100vh;
+}
+
+.secaoConsultores{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    max-width: 150vh;
+}
+
+.tituloEImgSecaoConsultores{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.imgConsultores{
+    width: 100vh;
+}
+
+.secaoEndereco{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    max-width: 150vh;
+}
+
+.tituloEMapaSecaoEndereco{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.pSecaoEndereco{
+    color: white;
+    background-color: #020202;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+iframe{
+    width: 130vh;
+    height: 70vh;
+}
